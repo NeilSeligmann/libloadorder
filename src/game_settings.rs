@@ -138,7 +138,7 @@ impl GameSettings {
         GameSettings::with_local_and_my_games_paths(game_id, game_path, local_path, my_games_path)
     }
 
-    pub(crate) fn with_local_and_my_games_paths(
+    pub fn with_local_and_my_games_paths(
         game_id: GameId,
         game_path: &Path,
         local_path: &Path,
